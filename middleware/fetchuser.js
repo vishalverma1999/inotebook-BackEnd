@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');   // imported from jswebtoken package
-const JWT_SECRET = process.env.JWT_SECRET; // generally kept secretly in other file like .env.local
+const JWT_SECRET = 'Harryisagoodb$oy'; // generally kept secretly in other file like .env.local
 
 // here fetchuser is a middleware which takes req,res and next as parameters, at the end next middleware run hoga aur hamare case mein next function hai async wala
 const fetchuser = (req, res, next)=>{

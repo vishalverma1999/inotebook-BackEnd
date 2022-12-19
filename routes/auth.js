@@ -4,7 +4,7 @@ const router = express.Router(); // using Router, since express ke andar ek rout
 const { body, validationResult } = require('express-validator');  // validator imported
 const bcrypt = require('bcryptjs');   // imported from bcryptjs package
 const jwt = require('jsonwebtoken');   // imported from jswebtoken package
-const JWT_SECRET = process.env.JWT_SECRET; // generally kept secretly in other file like .env.local
+const JWT_SECRET = 'Harryisagoodb$oy'; // generally kept secretly in other file like .env.local
 const fetchuser = require('../middleware/fetchuser');    // importing fetchuser
 
 // router.get('/', (req, res)=>{   // since we are using router to hum app.get nahi router.get karenge, also '/' /api/auth jo ki app.use() mein index.js file mein likhi hai ke last mein lagega aur aisa dikhega fir /api/auth/....uske baad callback function run hoga with two parameters request and response
